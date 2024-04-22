@@ -72,11 +72,13 @@ class EscalaScreen extends StatelessWidget {
     },
   ];
 
+  EscalaScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Escala HAM-D 17'),
+        title: const Text('Escala HAM-D 17'),
         backgroundColor: Colors.blue[800], // Cor de fundo da barra de navegação
       ),
       body: Padding(
@@ -85,7 +87,7 @@ class EscalaScreen extends StatelessWidget {
           itemCount: hamdItems.length,
           itemBuilder: (context, index) {
             return Container(
-              padding: EdgeInsets.symmetric(vertical: 10),
+              padding: const EdgeInsets.symmetric(vertical: 10),
               decoration: BoxDecoration(
                 border: Border(
                   bottom: BorderSide(color: Colors.grey[300]!), // Cor da borda
@@ -105,7 +107,7 @@ class EscalaScreen extends StatelessWidget {
                       color: Colors.blue[800], // Cor do texto
                     ),
                   ),
-                  SizedBox(height: 8),
+                  const SizedBox(height: 8),
                   Text(
                     hamdItems[index]['pontos']!,
                     style: TextStyle(

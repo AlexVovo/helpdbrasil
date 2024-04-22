@@ -7,33 +7,37 @@ import 'equipe.dart'; // Importar a página da equipe
 import 'exportar.dart'; // Importar a página de exportar entrevista
 
 class TarefasScreen extends StatelessWidget {
+  const TarefasScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tarefas'),
+        title: const Text('Tarefas'),
       ),
       body: ListView(
-        padding: EdgeInsets.symmetric(vertical: 20, horizontal: 16),
+        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
         children: <Widget>[
-          buttonWithText(context, 'Realizar Entrevista', EntrevistaScreen()),
-          SizedBox(height: 20),
+          buttonWithText(
+              context, 'Realizar Entrevista', const EntrevistaScreen()),
+          const SizedBox(height: 20),
           buttonWithText(context, 'Escala HAM-D 17', EscalaScreen()),
-          SizedBox(height: 20),
-          buttonWithText(context, 'Orientações', OrientacoesScreen()),
-          SizedBox(height: 20),
-          buttonWithText(context, 'Referências', ReferenciasScreen()),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
+          buttonWithText(context, 'Orientações', const OrientacoesScreen()),
+          const SizedBox(height: 20),
+          buttonWithText(context, 'Referências', const ReferenciasScreen()),
+          const SizedBox(height: 20),
           buttonWithText(context, 'Equipe', EquipeScreen()),
-          SizedBox(height: 20),
-          buttonWithText(context, 'Exportar Entrevista', ExportarScreen()),
+          const SizedBox(height: 20),
+          buttonWithText(
+              context, 'Exportar Entrevista', const ExportarScreen()),
         ],
       ),
     );
   }
 
   Widget buttonWithText(BuildContext context, String text, Widget screen) {
-    return Container(
+    return SizedBox(
       width: MediaQuery.of(context).size.width * 0.5, // 50% da largura da tela
       child: ElevatedButton(
         onPressed: () {

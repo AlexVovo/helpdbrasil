@@ -14,11 +14,13 @@ class EquipeScreen extends StatelessWidget {
     "Ygor Arzeno Ferrão(UFCSPA)"
   ];
 
+  EquipeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Equipe'),
+        title: const Text('Equipe'),
         backgroundColor: Colors.blue[800], // Cor de fundo da barra de navegação
       ),
       body: Padding(
@@ -27,7 +29,7 @@ class EquipeScreen extends StatelessWidget {
           itemCount: teamMembers.length,
           itemBuilder: (context, index) {
             return Container(
-              padding: EdgeInsets.symmetric(vertical: 10),
+              padding: const EdgeInsets.symmetric(vertical: 10),
               decoration: BoxDecoration(
                 border: Border(
                   bottom: BorderSide(color: Colors.grey[300]!), // Cor da borda

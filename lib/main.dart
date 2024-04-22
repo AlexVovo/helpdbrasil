@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'tarefas.dart'; // Importando o arquivo tarefas.dart
 
-void main() => runApp(HelpDApp());
+void main() => runApp(const HelpDApp());
 
 class HelpDApp extends StatelessWidget {
+  const HelpDApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,12 +15,12 @@ class HelpDApp extends StatelessWidget {
         hintColor: Colors.blueAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         textTheme: TextTheme(
-          headline6: TextStyle(
+          titleLarge: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
             color: Colors.blue[800],
           ),
-          button: TextStyle(
+          labelLarge: const TextStyle(
             fontSize: 18,
             color: Colors.white,
           ),
@@ -27,33 +29,35 @@ class HelpDApp extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             foregroundColor: Colors.white,
             backgroundColor: Colors.blue[800],
-            padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
+            padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(30.0),
             ),
           ),
         ),
       ),
-      home: HelpDScreen(),
+      home: const HelpDScreen(),
     );
   }
 }
 
 class HelpDScreen extends StatefulWidget {
+  const HelpDScreen({super.key});
+
   @override
   _HelpDScreenState createState() => _HelpDScreenState();
 }
 
 class _HelpDScreenState extends State<HelpDScreen> {
-  TextEditingController _usernameController = TextEditingController();
-  TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _usernameController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
   bool _isLoggedIn = false;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('HelpD'),
+        title: const Text('HelpD'),
         backgroundColor: Colors.blue[800],
       ),
       body: Padding(
@@ -65,20 +69,20 @@ class _HelpDScreenState extends State<HelpDScreen> {
                   children: [
                     Text(
                       'Bem-vindo ao HelpD!',
-                      style: Theme.of(context).textTheme.headline6,
+                      style: Theme.of(context).textTheme.titleLarge,
                     ),
-                    SizedBox(height: 40),
+                    const SizedBox(height: 40),
                     ElevatedButton(
                       onPressed: () {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => TarefasScreen()),
+                              builder: (context) => const TarefasScreen()),
                         );
                       },
-                      child: Text('Iniciar'),
+                      child: const Text('Iniciar'),
                     ),
-                    SizedBox(height: 20),
+                    const SizedBox(height: 20),
                     ElevatedButton(
                       onPressed: () {
                         setState(() {
@@ -87,7 +91,7 @@ class _HelpDScreenState extends State<HelpDScreen> {
                           _passwordController.clear();
                         });
                       },
-                      child: Text('Sair'),
+                      child: const Text('Sair'),
                     ),
                   ],
                 ),
@@ -101,24 +105,24 @@ class _HelpDScreenState extends State<HelpDScreen> {
                     width: 200,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   TextField(
                     controller: _usernameController,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       labelText: 'Usuário',
                       border: OutlineInputBorder(),
                     ),
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   TextField(
                     controller: _passwordController,
                     obscureText: true,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       labelText: 'Senha',
                       border: OutlineInputBorder(),
                     ),
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   ElevatedButton(
                     onPressed: () {
                       // Verificar usuário e senha (lógica simples para demonstração)
@@ -129,13 +133,13 @@ class _HelpDScreenState extends State<HelpDScreen> {
                         });
                       } else {
                         ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
+                          const SnackBar(
                             content: Text('Usuário ou senha incorretos'),
                           ),
                         );
                       }
                     },
-                    child: Text('Entrar'),
+                    child: const Text('Entrar'),
                   ),
                 ],
               ),
