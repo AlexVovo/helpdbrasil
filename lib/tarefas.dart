@@ -7,7 +7,7 @@ import 'equipe.dart'; // Importar a página da equipe
 import 'exportar.dart'; // Importar a página de exportar entrevista
 
 class TarefasScreen extends StatelessWidget {
-  const TarefasScreen({super.key});
+  const TarefasScreen({required Key key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,10 @@ class TarefasScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
         children: <Widget>[
           buttonWithText(
-              context, 'Realizar Entrevista', const EntrevistaScreen()),
+              // ignore: prefer_const_constructors
+              context,
+              'Realizar Entrevista',
+              EntrevistaScreen()),
           const SizedBox(height: 20),
           buttonWithText(context, 'Escala HAM-D 17', EscalaScreen()),
           const SizedBox(height: 20),

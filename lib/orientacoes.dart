@@ -84,7 +84,7 @@ class OrientacoesScreen extends StatelessWidget {
               _buildQuestion(
                 "ITEM 7",
                 "Como você tem passado seu tempo na última semana (quando não está no trabalho)? Você se sente interessado em fazer (essas atividades) ou você tem de se forçar? Você parou de fazer atividades que costumava fazer? SE SIM: Por quê? Há alguma coisa que você aguarda ansiosamente? (no seguimento): Seu interesse voltou ao normal?\n\nTRABALHO E ATIVIDADES\n",
-                "0 - Sem dificuldades\n1 - Pensamentos  e  sentimentos  de  incapacidade,  fadiga  ou  fraqueza,  relacionado  a atividades, trabalho ou passatempos.\n2 - Perda de interesse em atividades, passatempos ou trabalho, quer relatado diretamente pelo paciente, quer indiretamente por desatenção, indecisão ou vacilação (sente que precisa se esforçar para o trabalho ou atividades).\n3 - Diminuição no tempo gasto em atividades ou queda de produtividade. No hospital, o paciente se ocupa por menos de três horas por dia em atividades (trabalho hospitalar ou passatempos), com exceção das tarefas rotineiras da enfermaria.\n4 -  Parou de trabalhar devido à doença atual. No hospital, sem atividades, com exceção das tarefas rotineiras da enfermaria, ou se não consegue realizá-las sem ajuda.",
+                "0 - Sem dificuldades\n1 - Pensamentos  e  sentimentos  de  incapacidade,  fadiga  ou  fraqueza,  relacionado  a atividades, trabalho ou passatempos.\n2 - Perda de interesse em atividades, passatempos ou trabalho, quer relatado diretamente pelo paciente, quer indiretamente por desatenção, indecisão ou vacilação (sente que precisa se esforçar para o trabalho ou atividades).\n3 - Diminuição no tempo gasto em atividades ou queda de produtividade. No hospital, o paciente se ocupa por menos de três horas por dia em atividades (trabalho hospitalar ou passatempos), com exceção das tarefas rotineiras da enfermaria.\n4 -  Parou de trabalhar devido à doença atual. No hospital, sem atividades, com exceção das tarefas rotineiras da enfermaria, ou se não consegue realizá-las sem ajuda.\n",
               ),
 
               const SizedBox(height: 16),
@@ -92,8 +92,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 8",
-                "Avaliação baseada na observação durante a entrevista.\n\nAGITAÇÃO\n\n0 - Nenhuma\n1 - Inquietação\n2 - Mexe as mãos, cabelos, etc\n3 -  Movimenta-se bastante, não consegue permanecer sentado durante a entrevista.\n4 -  Retorce as mãos rói as unhas, puxa os cabelos, morde os lábios",
-                "",
+                "Avaliação baseada na observação durante a entrevista.\n\nAGITAÇÃO\n\n0 - Nenhuma\n1 - Inquietação\n2 - Mexe as mãos, cabelos, etc\n3 -  Movimenta-se bastante, não consegue permanecer sentado durante a entrevista.\n4 -  Retorce as mãos rói as unhas, puxa os cabelos, morde os lábios\n",
               ),
 
               const SizedBox(height: 16),
@@ -101,8 +100,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 9",
-                "",
-                "",
+                " Avaliação baseada na observação durante a entrevista.\n\nAGITAÇÃO\n\n0 - Nenhuma\n1 - Inquietação\n2 - Mexe as mãos, cabelos, etc\n3 -  Movimenta-se bastante, não consegue permanecer sentado durante a entrevista.\n4 -  Retorce as mãos rói as unhas, puxa os cabelos, morde os lábios\n",
               ),
 
               const SizedBox(height: 16),
@@ -110,8 +108,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 10",
-                "",
-                "",
+                "Você tem se sentido especialmente tenso ou irritado nesta última semana? Você tem estado preocupado com coisas pouco importantes, com as quais normalmente não se preocuparia? SE SIM: Com o que, por exemplo?\n\n0 - Sem ansiedade\n1 - Tensão e irritabilidade subjetivas\n2 - Preocupa-se com trivialidades.3 - Atitude apreensiva aparente no rosto ou na fala.\n4 - Paciente expressa medo sem ser perguntado\n",
               ),
 
               const SizedBox(height: 16),
@@ -119,8 +116,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 11",
-                "",
-                "",
+                "Na última semana, você sofreu de alguns dos seguintes sintomas físicos? Leia a lista, parando após cada sintoma para resposta. O quanto esses sintomas o incomodaram na última semana? Quão intensos foram? Quanto tempo ou com que freqüência os teve? Nota: não considerar se claramente relacionados à medicação (por exemplo, boca seca e imipramina)\n\nANSIEDADE-SOMÁTICA\n\nConcomitantes fisiológicos da ansiedade, como: GI: boca seca, flatulência, indigestão, diarréias, cólicas, eructações. CV: palpitação, cefaléias. Respiratórios: hiperventilação, suspiros. Ter de urinar freqüentemente. Sudorese.\n\n0 - Ausente\n1 - Duvidosos ou trivial: sintomas menores, relatados quando questionados.\n2 - Leve: paciente descreve espontaneamente os sintomas, que não são acentuados ou incapacitantes.\n3 - Moderada: mais que 2 sintomas e com maior frequência. São acompanhados de estresse subjetivo e prejudicam o funcionamento normal.\n4 - Grave: numerosos sintomas, persistentes e incapacitantes na maior parte do tempo, ou ataques de pânico quase diariamente.\n",
               ),
 
               const SizedBox(height: 16),
@@ -128,8 +124,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 12",
-                "",
-                "",
+                "Como tem estado seu apetite nesta última semana? (Como se compara ao seu apetite habitual?) Você tem tido de se forçar a comer? As outras pessoas têm de insistir para você comer?\n\nSINTOMAS SOMÁTICOS - GASTRINTESTINAIS\n\n0 - Nenhum\n1 -  Perda de apetite, mas come sem necessidade de insistência.\n2 - Dificuldade para comer se não insistirem.\n",
               ),
 
               const SizedBox(height: 16),
@@ -137,8 +132,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 13",
-                "",
-                "",
+                "Como tem estado sua energia nesta última semana? Você se sente cansado o tempo todo? Nesta última semana, você teve dor nas costas, dor de cabeça ou dor muscular? Nesta última semana, você tem sentido um peso nos membros, nas costas ou na cabeça?\n\nSINTOMAS SOMÁTICOS - GERAIS\n\n0 - Nenhum\n1 -  Peso nos membros, costas ou cabeça; dor nas costas, cabeça ou muscular. Perda de energia e cansaço..\n2 - Qualquer sintoma bem caracterizado e nítido.\n",
               ),
 
               const SizedBox(height: 16),
@@ -146,8 +140,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 14",
-                "",
-                "",
+                "Como tem estado seu interesse por sexo nesta semana? (não estou lhe perguntando sobre seu desempenho sexual, mas sobre seu interesse por sexo, isto é, o quanto você tem pensado nisso?) Houve alguma mudança em seu interesse por sexo (relação à época em que você não estava deprimido)? Isso é algo em que você tem pensado muito? Se não: isso é pouco habitual para você?\n\nSINTOMAS GENITAIS (como perda de libido)\n\n0 - Ausentes\n1 - Leves ou infreqüentes: perda de libido, desempenho sexual prejudicado.\n2 - Óbvio e graves: perda completa do interesse sexual.\n",
               ),
 
               const SizedBox(height: 16),
@@ -155,8 +148,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 15",
-                "",
-                "",
+                " Na última semana, quanto seus pensamentos têm focalizado na sua saúde física ou no funcionamento de seu corpo (comparado ao seu pensamento habitual) Você se queixa muito de sintomas físicos? Você tem-se deparado com situações em que pede ajuda para fazer coisas que poderia fazer sozinho? SE SIM: Como o que, por exemplo? Com que freqüência isso tem ocorrido?\n\nHIPOCONDRIA\n\n0 - Ausente\n1 - Auto-observação aumentada (com relação ao Corpo).\n2 - Preocupação com a saúde.\n3 - Queixas frequentes, pedidos de ajuda, etc.\n4 - Delírios hipocondríacos.\n",
               ),
 
               const SizedBox(height: 16),
@@ -164,8 +156,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 16",
-                "",
-                "",
+                "Você perdeu algum peso desde que essa (DEPRESSÃO) começou? SE SIM: Quanto? SE INCERTO: Você acha que suas roupas estão mais folgadas? NO SEGUIMENTO: Você voltou a ganhar peso?\n\nPERDA DE PESO (Marcar A ou B; A – pela história; B – pela avaliação semanal do psiquiatra responsável).\n\n*A:\n0 - Sem perda de peso\n1 - Provável perda de peso da doença atual.\n2 - Perda de peso definida.\n\n*B:\n0 - Menos de 0,5kg de perda por semana.\n1 - Mais de 0,5kg de perda por semana\n2 - Mais de 1kg de perda por semana.\n",
               ),
 
               const SizedBox(height: 16),
@@ -173,8 +164,7 @@ class OrientacoesScreen extends StatelessWidget {
               const SizedBox(height: 16),
               _buildQuestion(
                 "ITEM 17",
-                "",
-                "",
+                "Avaliação baseada na observação\n\nCRÍTICA (CONSCIÊNCIA DA DOENÇA)\n\n0 - Reconhece estar deprimido e doente\n1 - Reconhece estar, mas atribui a causa a má alimentação, ao clima, ao excesso de trabalho, a um vírus, à necessidade de descanso, etc.\n2 - Nega estar doente.\n",
               ),
               // Adicione as linhas Divider() conforme necessário para os demais itens...
               const SizedBox(height: 16),
