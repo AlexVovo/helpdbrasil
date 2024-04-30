@@ -127,7 +127,7 @@ class _HelpDScreenState extends State<HelpDScreen> {
                     onPressed: () {
                       // Verificar usuário e senha (lógica simples para demonstração)
                       if (_usernameController.text == 'user' &&
-                          _passwordController.text == 'password') {
+                          _passwordController.text == '1234') {
                         setState(() {
                           _isLoggedIn = true;
                         });
