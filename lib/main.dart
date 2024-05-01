@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'tarefas.dart'; // Importando o arquivo tarefas.dart
+import 'package:helpdepressao/tarefas.dart';
 
 void main() => runApp(const HelpDApp());
 
 class HelpDApp extends StatelessWidget {
-  const HelpDApp({super.key});
+  const HelpDApp({Key? key});
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +42,7 @@ class HelpDApp extends StatelessWidget {
 }
 
 class HelpDScreen extends StatefulWidget {
-  const HelpDScreen({super.key});
+  const HelpDScreen({Key? key});
 
   @override
   _HelpDScreenState createState() => _HelpDScreenState();
@@ -77,7 +77,8 @@ class _HelpDScreenState extends State<HelpDScreen> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const TarefasScreen()),
+                            builder: (context) => TarefasScreen(),
+                          ),
                         );
                       },
                       child: const Text('Iniciar'),

@@ -7,8 +7,6 @@ import 'equipe.dart'; // Importar a página da equipe
 import 'exportar.dart'; // Importar a página de exportar entrevista
 
 class TarefasScreen extends StatelessWidget {
-  const TarefasScreen({required Key key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

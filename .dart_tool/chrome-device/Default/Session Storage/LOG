@@ -1,3 +1,33 @@
-2024/04/30-16:40:45.473 4 Reusing MANIFEST /tmp/flutter_tools.GLNIAA/flutter_tools_chrome_device.XHHIHB/Default/Session Storage/MANIFEST-000001
-2024/04/30-16:40:45.473 4 Recovering log #3
-2024/04/30-16:40:45.474 4 Reusing old log /tmp/flutter_tools.GLNIAA/flutter_tools_chrome_device.XHHIHB/Default/Session Storage/000003.log 
+2024/04/30-17:45:10.677 4 Reusing MANIFEST /tmp/flutter_tools.UXYABI/flutter_tools_chrome_device.DNBFMX/Default/Session Storage/MANIFEST-000001
+2024/04/30-17:45:10.678 4 Recovering log #3
+2024/04/30-17:45:10.678 4 Reusing old log /tmp/flutter_tools.UXYABI/flutter_tools_chrome_device.DNBFMX/Default/Session Storage/000003.log 
+2024/04/30-19:25:49.447 6 Level-0 table #5: started
+2024/04/30-19:25:49.453 6 Level-0 table #5: 24443 bytes OK
+2024/04/30-19:25:49.456 6 Delete type=0 #3
+2024/04/30-19:30:49.448 6 Level-0 table #7: started
+2024/04/30-19:30:49.456 6 Level-0 table #7: 23734 bytes OK
+2024/04/30-19:30:49.463 6 Delete type=0 #4
+2024/04/30-19:35:49.448 6 Level-0 table #9: started
+2024/04/30-19:35:49.456 6 Level-0 table #9: 23513 bytes OK
+2024/04/30-19:35:49.461 6 Delete type=0 #6
+2024/04/30-19:40:49.447 6 Level-0 table #11: started
+2024/04/30-19:40:49.453 6 Level-0 table #11: 23579 bytes OK
+2024/04/30-19:40:49.456 6 Delete type=0 #8
+2024/04/30-19:45:49.446 6 Level-0 table #13: started
+2024/04/30-19:45:49.450 6 Level-0 table #13: 23561 bytes OK
+2024/04/30-19:45:49.452 6 Delete type=0 #10
+2024/04/30-19:50:49.446 6 Level-0 table #15: started
+2024/04/30-19:50:49.452 6 Level-0 table #15: 23553 bytes OK
+2024/04/30-19:50:49.455 6 Delete type=0 #12
+2024/04/30-19:50:49.456 6 Compacting 4@0 + 1@1 files
+2024/04/30-19:50:49.458 6 Generated table #16@0: 4 keys, 4890 bytes
+2024/04/30-19:50:49.458 6 Compacted 4@0 + 1@1 files => 4890 bytes
+2024/04/30-19:50:49.459 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/30-19:50:49.460 6 Delete type=2 #7
+2024/04/30-19:50:49.460 6 Delete type=2 #11
+2024/04/30-19:50:49.460 6 Delete type=2 #9
+2024/04/30-19:50:49.460 6 Delete type=2 #15
+2024/04/30-19:50:49.460 6 Delete type=2 #13
+2024/04/30-19:55:49.447 6 Level-0 table #18: started
+2024/04/30-19:55:49.456 6 Level-0 table #18: 23461 bytes OK
+2024/04/30-19:55:49.461 6 Delete type=0 #14
