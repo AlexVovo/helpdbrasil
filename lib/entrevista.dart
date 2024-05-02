@@ -141,20 +141,23 @@ class _QuizWidgetState extends State<QuizWidget> {
       'questionText':
           '\nITEM 4:\nComo tem estado seu humor na última semana? Você tem se sentido para baixo ou deprimido? Triste? Sem esperança?\nNa  última  semana,  com  que  frequência  você  se  sentiu  (utilize  a  palavra  referida  pelo paciente)? Todos os dias? O dia inteiro?Você tem chorado?\nINSÔNIA INICIAL\n',
       'answers': [
-        {'answer': 'Ausente', 'score': 0},
-        {'answer': 'Sentimentos relatados somente se perguntados.', 'score': 1},
+        {'answer': '0 - Ausente', 'score': 0},
         {
-          'answer': ' Sentimentos relatados espontaneamente, com palavras.',
+          'answer': '1 - Sentimentos relatados somente se perguntados.',
+          'score': 1
+        },
+        {
+          'answer': '2 - Sentimentos relatados espontaneamente, com palavras.',
           'score': 2
         },
         {
           'answer':
-              'Comunica os sentimentos não com palavras, isto é, com a expressão facial; a postura, a voz e a tendência ao choro.',
+              '3 - Comunica os sentimentos não com palavras, isto é, com a expressão facial; a postura, a voz e a tendência ao choro.',
           'score': 3
         },
         {
           'answer':
-              'O paciente comunica quase exclusivamente esses sentimentos, tanto em seu relato verbal como na comunicação não-verbal.',
+              '4 - O paciente comunica quase exclusivamente esses sentimentos, tanto em seu relato verbal como na comunicação não-verbal.',
           'score': 4
         },
       ],
@@ -458,7 +461,7 @@ class _QuizWidgetState extends State<QuizWidget> {
                   children: [
                     Icon(
                       faceIcon, // Exibindo o ícone da carinha
-                      size: 50,
+                      size: 60,
                       color: Colors.white,
                     ),
                     SizedBox(
@@ -468,7 +471,7 @@ class _QuizWidgetState extends State<QuizWidget> {
                       ' Score Total: $_totalScore',
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                          fontSize: 18,
+                          fontSize: 20,
                           fontWeight: FontWeight.bold,
                           color: Colors.white),
                     ),
@@ -479,7 +482,7 @@ class _QuizWidgetState extends State<QuizWidget> {
                       depressionLevel, // Exibindo o nome do nível de depressão
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                          fontSize: 18,
+                          fontSize: 20,
                           fontWeight: FontWeight.bold,
                           color: Colors.white),
                     ),

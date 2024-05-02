@@ -1,18 +1,11 @@
-2024/04/30-17:45:10.448 4 Reusing MANIFEST /tmp/flutter_tools.UXYABI/flutter_tools_chrome_device.DNBFMX/Default/Local Storage/leveldb/MANIFEST-000001
-2024/04/30-17:45:10.450 4 Recovering log #33
-2024/04/30-17:45:10.451 4 Reusing old log /tmp/flutter_tools.UXYABI/flutter_tools_chrome_device.DNBFMX/Default/Local Storage/leveldb/000033.log 
-2024/04/30-17:45:10.451 4 Delete type=0 #26
-2024/04/30-17:45:10.451 4 Delete type=0 #30
-2024/04/30-17:45:10.451 4 Delete type=0 #3
-2024/04/30-19:20:22.962 6 Level-0 table #36: started
-2024/04/30-19:20:22.969 6 Level-0 table #36: 71562 bytes OK
-2024/04/30-19:20:22.972 6 Delete type=0 #33
-2024/04/30-19:20:22.972 6 Compacting 4@0 + 1@1 files
-2024/04/30-19:20:22.992 6 Generated table #37@0: 110 keys, 680760 bytes
-2024/04/30-19:20:22.992 6 Compacted 4@0 + 1@1 files => 680760 bytes
-2024/04/30-19:20:22.993 6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/30-19:20:22.994 6 Delete type=2 #29
-2024/04/30-19:20:22.994 6 Delete type=2 #32
-2024/04/30-19:20:22.994 6 Delete type=2 #36
-2024/04/30-19:20:22.994 6 Delete type=2 #25
-2024/04/30-19:20:22.994 6 Delete type=2 #27
+2024/04/30-22:16:49.215 6 Reusing MANIFEST /tmp/flutter_tools.VCMUYA/flutter_tools_chrome_device.NCHHFU/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/30-22:16:49.217 6 Recovering log #35
+2024/04/30-22:16:49.217 6 Reusing old log /tmp/flutter_tools.VCMUYA/flutter_tools_chrome_device.NCHHFU/Default/Local Storage/leveldb/000035.log 
+2024/04/30-22:16:49.218 6 Delete type=2 #29
+2024/04/30-22:16:49.218 6 Delete type=2 #32
+2024/04/30-22:16:49.218 6 Delete type=0 #26
+2024/04/30-22:16:49.218 6 Delete type=2 #25
+2024/04/30-22:16:49.218 6 Delete type=0 #30
+2024/04/30-22:16:49.218 6 Delete type=0 #3
+2024/04/30-22:16:49.218 6 Delete type=0 #33
+2024/04/30-22:16:49.218 6 Delete type=2 #27
