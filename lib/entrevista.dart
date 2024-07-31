@@ -16,12 +16,12 @@ class HelpDApp extends StatelessWidget {
         hintColor: Colors.blueAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         textTheme: const TextTheme(
-          headline6: TextStyle(
+          titleLarge: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
             color: Colors.blue,
           ),
-          bodyText2: TextStyle(
+          bodyMedium: TextStyle(
             fontSize: 18,
             color: Colors.white,
           ),
