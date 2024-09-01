@@ -127,7 +127,7 @@ class _HelpDScreenState extends State<HelpDScreen> {
                   ElevatedButton(
                     onPressed: () {
                       // Verificar usuário e senha (lógica simples para demonstração)
-                      if (_usernameController.text == 'user' &&
+                      if (_usernameController.text == 'admin' &&
                           _passwordController.text == '1234') {
                         setState(() {
                           _isLoggedIn = true;
