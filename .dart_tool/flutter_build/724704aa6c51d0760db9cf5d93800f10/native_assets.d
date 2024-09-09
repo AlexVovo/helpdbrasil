@@ -1,0 +1,1 @@
+ /home/alex/Documentos/GitHub/helpdbrasil/.dart_tool/flutter_build/724704aa6c51d0760db9cf5d93800f10/native_assets.yaml: 
