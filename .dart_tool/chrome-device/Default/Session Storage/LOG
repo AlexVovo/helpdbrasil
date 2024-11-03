@@ -1,4 +1,2 @@
-2024/09/08-13:33:54.599 4 Reusing MANIFEST /tmp/flutter_tools.PTKELB/flutter_tools_chrome_device.PINWUC/Default/Session Storage/MANIFEST-000001
-2024/09/08-13:33:54.605 4 Recovering log #17
-2024/09/08-13:33:54.609 4 Reusing old log /tmp/flutter_tools.PTKELB/flutter_tools_chrome_device.PINWUC/Default/Session Storage/000017.log 
-2024/09/08-13:33:54.614 4 Delete type=0 #3
+2024/11/01-22:26:56.270 347c Creating DB C:\Users\alexa\AppData\Local\Temp\flutter_tools.3947132a\flutter_tools_chrome_device.b15efc94\Default\Session Storage since it was missing.
+2024/11/01-22:26:56.307 347c Reusing MANIFEST C:\Users\alexa\AppData\Local\Temp\flutter_tools.3947132a\flutter_tools_chrome_device.b15efc94\Default\Session Storage/MANIFEST-000001
